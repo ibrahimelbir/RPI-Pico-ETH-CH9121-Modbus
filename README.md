@@ -154,9 +154,7 @@
    - **Purpose:** Validates that the slave ID is within the valid range (1-255).
    - **Parameters:**
      - `slave_id`: Integer representing the Modbus slave ID.
-   - **Returns:** `True` if the slave ID
-
- is valid; `False` otherwise.
+   - **Returns:** `True` if the slave ID is valid; `False` otherwise.
    - **Usage:** Call this method to validate the slave ID before updating the configuration.
 
 5. **`check_port_range(self, port)`**
